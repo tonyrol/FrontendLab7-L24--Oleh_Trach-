@@ -80,7 +80,6 @@ window.addEventListener( 'load', function() {
     let mainNode = document.getElementsByTagName( 'main' )[0];
     Object(__WEBPACK_IMPORTED_MODULE_0__interface__["a" /* default */])( mainNode );
     document.getElementsByClassName( 'buttonSet' )[0].addEventListener( 'click', function( event ) {
-        event.preventDefault();
         let firstNumber = parseInt( document.getElementsByClassName( 'inputSet' )[0].firstChild.value );
         let secondNumber = parseInt( document.getElementsByClassName( 'inputSet' )[0].lastChild.value );
         let buttonText = event.target.innerText;
